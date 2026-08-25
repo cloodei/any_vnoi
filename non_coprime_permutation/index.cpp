@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream>                                                                                                                                                                                                                                                                       // https://oj.vnoi.info/problem/non_coprime_permutation
 using namespace std;
 
 int main() {
@@ -7,7 +7,7 @@ int main() {
 
   int t;
   cin >> t;
-
+  
   while (t--) {
     int n;
     cin >> n;
@@ -17,7 +17,7 @@ int main() {
       continue;
     }
     for (int x = 6; x <= n; x += 2) cout << x << ' ';
-    cout << 2 << ' ' << 4 << ' ' << 5 << ' ' << 1 << ' ' << 3;
+    cout << "2 4 5 1 3";
     for (int x = 7; x <= n; x += 2) cout << ' ' << x;
     cout << '\n';
   }
