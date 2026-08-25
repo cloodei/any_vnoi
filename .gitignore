@@ -1,3 +1,10 @@
 *.exe
 *.pdf
 *.env
+
+.agents
+.cursor
+.claude
+.codex
+AGENTS.md
+CLAUDE.md
