@@ -1,4 +1,0 @@
-interface:
-  display_name: "Solve CP Problem"
-  short_description: "Derive, implement, and verify contest solutions"
-  default_prompt: "Use $cp-solve-problem to solve this competitive programming problem cleanly."

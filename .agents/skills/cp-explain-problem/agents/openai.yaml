@@ -1,4 +1,0 @@
-interface:
-  display_name: "Explain CP Problem"
-  short_description: "Teach contest statements and solutions clearly"
-  default_prompt: "Use $cp-explain-problem to explain this competitive programming problem and its solution thoroughly."
