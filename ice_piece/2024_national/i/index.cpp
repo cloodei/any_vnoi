@@ -10,9 +10,8 @@ int main() {
     cin >> t;
     while (t--) {
         int n;
-        cin >> n;
         string a, b;
-        cin >> a >> b;
+        cin >> n >> a >> b;
 
         int counta = 0, countb = 0;
         for (int i = 0; i < n; ++i) {
@@ -20,10 +19,7 @@ int main() {
             countb += (i & 1 ? b[i] - '0' : '0' - b[i]);
         }
 
-        if (counta == countb)
-            cout << "YES\n";
-        else
-            cout << "NO\n";
+        cout << (counta == countb ? "YES\n" : "NO\n");
     }
 
     return 0;
