@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream>                                                                                                                                                                                                                                                                                                                                                                                                 // https://oj.vnoi.info/problem/prefixsum_diff_n
 #include <vector>
 #include <algorithm>
 #include <string>
